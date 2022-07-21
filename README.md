@@ -3,11 +3,11 @@
 ## [ENG: Traffic on highway](https://github.com/askovr0n/higway_traffic_stacked_regressions_ENG)
 
 - The aim of this project is to explain the traffic on one of the highways for one-hourly intervals based on the training sample and generate predictions for all observations from the test sample
-- Due to university requirements, the metric that was used to measure the predictive power of the model was **MAPE** (final score - 29%)
+- Due to university requirements, the metric that was used to measure the predictive power of the model was **MAPE** (final score: 29%)
 - The training set contained 29701 observations and 8 columns. During the data analysis process, categorical variables were split, additional interactions and variable transformations were introduced, which ultimately led to an expansion of the set to 31 columns
 - The process of building the optimal model was based on **backward selection** in which insignificant variables with the highest p-value (significance level = 0.05) were dropped
 - Performance was checked on 4 different algorithms: **Support Vector Regressor, Lasso/Ridge Regression and Elastic Net**
-- In order to balance the results, the **StackingRegressor** algorithm was used, were Elastic Net was the **meta** regressor
+- In order to balance the results, the **StackingRegressor** algorithm was used, in which Elastic Net was the **meta** regressor
 
 #### Distribution of traffic per hour
 ![](/images/Project_10/hour_dist.png)
@@ -146,7 +146,7 @@ Sample repertoire           |  Sample admin panel
 :-------------------------:|:-------------------------:
 ![](images/Project_6/sample_repertoire.png)  |  ![](images/Project_6/sample_admin_panel.png)
 
-# Other projects written in SAS EG
+# Other projects, written in SAS EG
 
 - [Ekonometryczna analiza danych w SAS EG](https://github.com/askovr0n/Ekonometryczna-analiza-danych-PL)
 - [Statystyczna analiza danych w SAS EG](https://github.com/askovr0n/Statystyka-Mapy-PCA-KMeans-PL)
