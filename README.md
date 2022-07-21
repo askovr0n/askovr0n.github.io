@@ -140,9 +140,9 @@ Sample chart from EDA     |  Sample output from BeautifulSoup
 - In order to obtain the above login data you need to, among other things: have an account on spotify, log in to [Spotify for Developers]( https://developer.spotify.com/dashboard/login) and then allow data sharing, where in the next section a special id and cookie will be rendered
 - Below are sample screenshots of the application's appearance
 
-Favourite tracks   |  Analysis of liked songs  |  Recommendation system
+Analysis of liked songs  |  Recommendation system
 :-------------------------:|:-------------------------:|:-------------------------:
-![](images/Project_11/zdj_1.png)  |  ![](images/Project_11/zdj_3.png)  |  ![](images/Project_11/zdj_4.png)
+![](images/Project_11/zdj_3.png)  |  ![](images/Project_11/zdj_4.png)
 
 ## [ENG: Cinema booking system](https://github.com/askovr0n/cinema-booking-system-python-ENG)
 
